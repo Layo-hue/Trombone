@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.img-cont {
+  width: 300px;
+}
+img {
+  width: 100%;
+}
+#header {
+  background-color: #d3d3d3;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+  display: flex;
+  padding: 25px 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav-bar .space {
+  margin: 0 100px;
+}
+#nav-bar .nav-link {
+  color: black;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+#form {
+  margin: 20px auto;
+}
+#email {
+  display: flex;
+  margin: 0 auto 20px auto;
+  padding: 5px;
+  width: 300px;
+}
+#submit {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-weight: bold;
+  background-color: #ffdb58;
+  border: none;
+}
+#Features {
+  width: 80%;
+  margin: 80px auto 50px auto;
+}
+.section-item1 {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.icon-cont {
+  font-size: 64px;
+  color: #ffdb58;
+}
+#How_It_Works {
+  width: 50%;
+  margin: 60px auto;
+}
+#video {
+  width: 100%;
+}
+#Pricing {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 50px auto;
+}
+.product-class {
+  width: 30%;
+  border: 1px solid grey;
+}
+.product-class p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.product-class h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pricing-heading {
+  background-color: #d3d3d3;
+  padding: 15px 0;
+}
+.sel-button {
+  border: none;
+  background-color: #ffdb58;
+  font-weight: bold;
+  padding: 5px 20px;
+  display: flex;
+  margin: 20px auto 20px auto;
+}
+footer {
+  margin: auto;
+  padding: 20px 15px;
+  background-color: #d3d3d3;
+  width: 80%;
+}
+footer p {
+  text-align: right;
+}
+.footer-text {
+  word-spacing: 5;
+}
+@media only screen and (max-width: 375px) {
+  #Pricing {
+    flex-wrap: wrap;
+  }
+  .product-class {
+    width: 100%;
+  }
+  #header {
+    flex-wrap: wrap;
+  }
+}
